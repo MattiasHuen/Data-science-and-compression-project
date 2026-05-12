@@ -1,0 +1,42 @@
+
+Image evaluation: pull_example
+==============================
+
+Image shape:
+    (1344, 2032, 3)
+
+Reconstruction metrics against original
+---------------------------------------
+Decoded:
+    MSE:   62.5554
+    MAE:   5.7613
+    PSNR:  30.1682 dB
+    SSIM:  0.8648
+
+Enhanced:
+    MSE:   44.2797
+    MAE:   4.5313
+    PSNR:  31.6688 dB
+    SSIM:  0.9139
+
+Improvement
+-----------
+    MSE reduction:   29.22 %
+    MAE reduction:   21.35 %
+    PSNR gain:       1.5006 dB
+    SSIM gain:       0.0492
+
+8x8 block-boundary statistics
+-----------------------------
+Decoded:
+    Boundary jump:                 10.2372
+    Non-boundary gradient:          6.4067
+    Boundary / non-boundary ratio:  1.5979
+
+Enhanced:
+    Boundary jump:                 6.2911
+    Non-boundary gradient:          5.7473
+    Boundary / non-boundary ratio:  1.0946
+
+Boundary jump reduction:
+    38.55 %
