@@ -8,35 +8,35 @@ Image shape:
 Reconstruction metrics against original
 ---------------------------------------
 Decoded:
-    MSE:   62.5554
-    MAE:   5.7613
-    PSNR:  30.1682 dB
-    SSIM:  0.8648
+    MSE:   58.5737
+    MAE:   4.6016
+    PSNR:  30.4538 dB
+    SSIM:  0.9039
 
 Enhanced:
-    MSE:   44.2797
-    MAE:   4.5313
-    PSNR:  31.6688 dB
-    SSIM:  0.9139
+    MSE:   43.2757
+    MAE:   3.9735
+    PSNR:  31.7684 dB
+    SSIM:  0.9250
 
 Improvement
 -----------
-    MSE reduction:   29.22 %
-    MAE reduction:   21.35 %
-    PSNR gain:       1.5006 dB
-    SSIM gain:       0.0492
+    MSE reduction:   26.12 %
+    MAE reduction:   13.65 %
+    PSNR gain:       1.3146 dB
+    SSIM gain:       0.0211
 
 8x8 block-boundary statistics
 -----------------------------
 Decoded:
-    Boundary jump:                 10.2372
-    Non-boundary gradient:          6.4067
-    Boundary / non-boundary ratio:  1.5979
+    Boundary jump:                 9.2730
+    Non-boundary gradient:          6.5255
+    Boundary / non-boundary ratio:  1.4210
 
 Enhanced:
-    Boundary jump:                 6.2911
-    Non-boundary gradient:          5.7473
-    Boundary / non-boundary ratio:  1.0946
+    Boundary jump:                 6.3165
+    Non-boundary gradient:          5.8040
+    Boundary / non-boundary ratio:  1.0883
 
 Boundary jump reduction:
-    38.55 %
+    31.88 %
